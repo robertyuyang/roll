@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<draws>
+	<draw taken="0">A1</draw>
+	<draw taken="0">A2</draw>
+	<draw taken="0">A3</draw>
+	<draw taken="0">A4</draw>
+	<draw taken="0">B1</draw>
+	<draw taken="0">B2</draw>
+	<draw taken="0">B3</draw>
+	<draw taken="0">B4</draw>
+	<draw taken="0">C1</draw>
+	<draw taken="0">C2</draw>
+	<draw taken="1">C3</draw>
+	<draw taken="0">D1</draw>
+	<draw taken="0">D2</draw>
+	<draw taken="0">D3</draw>
+</draws>
+<flag>
+<have_a_winner>0</have_a_winner>
+</flag>
+<data>
+<item>
+<user_name>a</user_name>
+<real_name>身</real_name>
+<number/>
+<his_num>3</his_num>
+</item>
+<item>
+<user_name>b</user_name>
+<real_name>无</real_name>
+<number/>
+<his_num>5</his_num>
+</item>
+<item>
+<user_name>c</user_name>
+<real_name>彩</real_name>
+<number>C3</number>
+<his_num>6</his_num>
+</item>
+<item>
+<user_name>d</user_name>
+<real_name>凤</real_name>
+<number/>
+<his_num>7</his_num>
+</item>
+<item>
+<user_name>e</user_name>
+<real_name>双</real_name>
+<number/>
+<his_num>5</his_num>
+</item>
+<item>
+<user_name>f</user_name>
+<real_name>飞</real_name>
+<number/>
+<his_num>3</his_num>
+</item>
+<item>
+<user_name>g</user_name>
+<real_name>翼</real_name>
+<number/>
+<his_num>5</his_num>
+</item>
+<item>
+<user_name>h</user_name>
+<real_name>拔</real_name>
+<number/>
+<his_num>6</his_num>
+</item>
+<item>
+<user_name>i</user_name>
+<real_name>毛</real_name>
+<number/>
+<his_num>7</his_num>
+</item>
+<item>
+<user_name>j</user_name>
+<real_name>凤</real_name>
+<number/>
+<his_num>5</his_num>
+</item>
+<item>
+<user_name>k</user_name>
+<real_name>凰</real_name>
+<number/>
+<his_num>3</his_num>
+</item>
+<item>
+<user_name>l</user_name>
+<real_name>不</real_name>
+<number/>
+<his_num>5</his_num>
+</item>
+<item>
+<user_name>m</user_name>
+<real_name>如</real_name>
+<number/>
+<his_num>6</his_num>
+</item>
+<item>
+<user_name>n</user_name>
+<real_name>鸡</real_name>
+<number/>
+<his_num>7</his_num>
+</item>
+
+
+
+</data>
+</root>
