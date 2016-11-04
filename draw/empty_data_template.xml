@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
 <draws>
-	<draw taken="1">A1</draw>
-	<draw taken="1">A2</draw>
-	<draw taken="1">A3</draw>
-	<draw taken="1">A4</draw>
-	<draw taken="1">B1</draw>
+	<draw taken="0">A1</draw>
+	<draw taken="0">A2</draw>
+	<draw taken="0">A3</draw>
+	<draw taken="0">A4</draw>
+	<draw taken="0">B1</draw>
 	<draw taken="0">B2</draw>
 	<draw taken="0">B3</draw>
+	<draw taken="0">B4</draw>
 	<draw taken="0">C1</draw>
-	<draw taken="1">C2</draw>
+	<draw taken="0">C2</draw>
 	<draw taken="0">C3</draw>
-	<draw taken="1">C4</draw>
-	<draw taken="1">D1</draw>
-	<draw taken="1">D2</draw>
-	<draw taken="1">D3</draw>
+	<draw taken="0">D1</draw>
+	<draw taken="0">D2</draw>
+	<draw taken="0">D3</draw>
 </draws>
 <flag>
 <have_a_winner>0</have_a_winner>
@@ -24,35 +24,35 @@
 <user_name>a</user_name>
 <real_name>U大力夯-王培娜</real_name>
 <caption>王培娜</caption>
-<number>D3</number>
+<number/>
 <his_num>3</his_num>
 </item>
 <item>
 <user_name>b</user_name>
 <real_name>代表月亮膈应人儿队-于洋</real_name>
 <caption>于洋</caption>
-<number>A3</number>
+<number/>
 <his_num>5</his_num>
 </item>
 <item>
 <user_name>c</user_name>
 <real_name>第五大道队-杨文鹏</real_name>
 <caption>杨文鹏</caption>
-<number>C4</number>
+<number/>
 <his_num>6</his_num>
 </item>
 <item>
 <user_name>d</user_name>
 <real_name>洪荒战队-郭立晔</real_name>
 <caption>郭立晔</caption>
-<number>D1</number>
+<number/>
 <his_num>7</his_num>
 </item>
 <item>
 <user_name>e</user_name>
 <real_name>狼行天下-刘占东</real_name>
 <caption>刘占东</caption>
-<number>C2</number>
+<number/>
 <his_num>5</his_num>
 </item>
 <item>
@@ -66,35 +66,35 @@
 <user_name>g</user_name>
 <real_name>弱鸡宝宝队-李金志</real_name>
 <caption>李金志</caption>
-<number>A1</number>
+<number/>
 <his_num>5</his_num>
 </item>
 <item>
 <user_name>h</user_name>
 <real_name>社区搜索队-金典</real_name>
 <caption>金典</caption>
-<number>A4</number>
+<number/>
 <his_num>6</his_num>
 </item>
 <item>
 <user_name>i</user_name>
 <real_name>大羽海棠队-王超</real_name>
 <caption>王超</caption>
-<number>B1</number>
+<number/>
 <his_num>7</his_num>
 </item>
 <item>
 <user_name>j</user_name>
 <real_name>谁羽争锋-陈伟</real_name>
 <caption>陈伟</caption>
-<number>A2</number>
+<number/>
 <his_num>5</his_num>
 </item>
 <item>
 <user_name>k</user_name>
 <real_name>搜狗天羽-王林平</real_name>
 <caption>王林平</caption>
-<number>D2</number>
+<number/>
 <his_num>3</his_num>
 </item>
 <item>
@@ -106,7 +106,7 @@
 </item>
 <item>
 <user_name>m</user_name>
-<real_name>大羽治水队-刘娜</real_name>
+<real_name>无羽伦比队-刘娜</real_name>
 <caption>刘娜</caption>
 <number/>
 <his_num>6</his_num>
