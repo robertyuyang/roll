@@ -1,123 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
 <draws>
-	<draw taken="0">A1</draw>
-	<draw taken="0">A2</draw>
-	<draw taken="0">A3</draw>
-	<draw taken="0">A4</draw>
-	<draw taken="0">B1</draw>
-	<draw taken="0">B2</draw>
-	<draw taken="0">B3</draw>
-	<draw taken="0">C1</draw>
-	<draw taken="0">C2</draw>
-	<draw taken="0">C3</draw>
-	<draw taken="0">C4</draw>
-	<draw taken="0">D1</draw>
-	<draw taken="0">D2</draw>
-	<draw taken="0">D3</draw>
+	<draw user_name="d" taken="0">樊敏</draw>
+	<draw user_name="e" taken="0">原野</draw>
+	<draw user_name="f" taken="0">纪源</draw>
+	<draw user_name="g" taken="0">宋晨光</draw>
 </draws>
 <flag>
 <have_a_winner>0</have_a_winner>
 </flag>
 <data>
 <item>
-<user_name>a</user_name>
-<real_name>U大力夯-王培娜</real_name>
-<caption>王培娜</caption>
-<number/>
-<his_num>3</his_num>
-</item>
-<item>
-<user_name>b</user_name>
-<real_name>代表月亮膈应人儿队-于洋</real_name>
-<caption>于洋</caption>
-<number/>
-<his_num>5</his_num>
-</item>
-<item>
-<user_name>c</user_name>
-<real_name>第五大道队-杨文鹏</real_name>
-<caption>杨文鹏</caption>
-<number/>
-<his_num>6</his_num>
-</item>
-<item>
 <user_name>d</user_name>
-<real_name>洪荒战队-郭立晔</real_name>
-<caption>郭立晔</caption>
+<real_name>樊敏</real_name>
+<caption>樊敏</caption>
 <number/>
-<his_num>7</his_num>
+<his_num/>
 </item>
 <item>
 <user_name>e</user_name>
-<real_name>狼行天下-刘占东</real_name>
-<caption>刘占东</caption>
+<real_name>原野</real_name>
+<caption>原野</caption>
 <number/>
-<his_num>5</his_num>
+<his_num/>
 </item>
 <item>
 <user_name>f</user_name>
-<real_name>骑士@新闻客户端队-贾玉龙</real_name>
-<caption>贾玉龙</caption>
-<number/>
-<his_num>3</his_num>
+<real_name>纪源</real_name>
+<caption>纪源</caption>
+<number></number>
+<his_num/>
 </item>
 <item>
 <user_name>g</user_name>
-<real_name>弱鸡宝宝队-李金志</real_name>
-<caption>李金志</caption>
+<real_name>宋晨光</real_name>
+<caption>宋晨光</caption>
 <number/>
-<his_num>5</his_num>
+<his_num/>
 </item>
-<item>
-<user_name>h</user_name>
-<real_name>社区搜索队-金典</real_name>
-<caption>金典</caption>
-<number/>
-<his_num>6</his_num>
-</item>
-<item>
-<user_name>i</user_name>
-<real_name>大羽海棠队-王超</real_name>
-<caption>王超</caption>
-<number/>
-<his_num>7</his_num>
-</item>
-<item>
-<user_name>j</user_name>
-<real_name>谁羽争锋-陈伟</real_name>
-<caption>陈伟</caption>
-<number/>
-<his_num>5</his_num>
-</item>
-<item>
-<user_name>k</user_name>
-<real_name>搜狗天羽-王林平</real_name>
-<caption>王林平</caption>
-<number/>
-<his_num>3</his_num>
-</item>
-<item>
-<user_name>l</user_name>
-<real_name>搜狗追梦队-曹承臻</real_name>
-<caption>曹承臻</caption>
-<number/>
-<his_num>5</his_num>
-</item>
-<item>
-<user_name>m</user_name>
-<real_name>大羽治水队-刘娜</real_name>
-<caption>刘娜</caption>
-<number/>
-<his_num>6</his_num>
-</item>
-<item>
-<user_name>n</user_name>
-<real_name>羽宙队-张骏</real_name>
-<caption>张骏</caption>
-<number/>
-<his_num>7</his_num>
-</item>
+
 
 
 

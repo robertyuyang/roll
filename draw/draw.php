@@ -43,8 +43,8 @@ var_dump($draws);
 #$draws = array("A1","A2","A3","A4","B1","B2","B3","B4","C1","C2","C3","D1","D2","D3");
 $draws_count = count($draws);
  */
-$user_name_list = array("a"=>0, "b"=>0,  "c"=>0, "d"=>0, "e"=>0, "f"=>0, "g"=>0,"h"=>0, "i"=>0,  "j"=>0, "k"=>0, "l"=>0, "m"=>0, "n"=>0);
-$his_num_list =  array("a"=>0, "b"=>0,  "c"=>0, "d"=>0, "e"=>0, "f"=>0, "g"=>0,"h"=>0, "i"=>0,  "j"=>0, "k"=>0, "l"=>0, "m"=>0, "n"=>0);
+$user_name_list = array("d"=>0, "e"=>0,  "f"=>0, "g"=>0);
+$his_num_list =  array("d"=>0, "e"=>0,  "f"=>0, "g"=>0);
 $leading_user_name = '';
 $leading_number = 0;
 $have_a_winner = 0;
@@ -62,9 +62,22 @@ foreach( $ele_draws as $ele_draw)
 {
 	if($ele_draw->getAttribute('taken') == '0')
 	{
-		array_push($left_draws, $ele_draw->nodeValue);
+    if(isset($_POST['user_name'])){
+      $post_user_name =  $_POST['user_name'];
+      if($ele_draw->getAttribute('user_name') != $post_user_name){
+		    array_push($left_draws, $ele_draw->nodeValue);
+        echo  $ele_draw->nodeValue;
+      }
+    }
+    else{
+		  array_push($left_draws, $ele_draw->nodeValue);
+        echo  $ele_draw->nodeValue;
+    }
 	}
 }
+
+
+
 $draws_count = count($left_draws);
 $ele_have_a_winner = $flag->item(0)->getElementsByTagName('have_a_winner');
 $root = $root->item(0)->getElementsByTagName('data');
@@ -87,6 +100,7 @@ foreach( $nodes as $node )
 		$post_user_name =  $_POST['user_name'];
 		if($user_name == $post_user_name){
 			if($ele_number->item(0)->nodeValue == ''){
+
 				$index = rand(1, $draws_count) - 1; 
 				$draw_name = $left_draws[$index];
 				$ele_number->item(0)->nodeValue = $draw_name;
