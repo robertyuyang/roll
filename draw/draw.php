@@ -43,8 +43,8 @@ var_dump($draws);
 #$draws = array("A1","A2","A3","A4","B1","B2","B3","B4","C1","C2","C3","D1","D2","D3");
 $draws_count = count($draws);
  */
-$user_name_list = array("a"=>0, "b"=>0,  "c"=>0, "d"=>0, "e"=>0, "f"=>0, "g"=>0,"h"=>0, "i"=>0,  "j"=>0, "k"=>0, "l"=>0, "m"=>0, "n"=>0);
-$his_num_list =  array("a"=>0, "b"=>0,  "c"=>0, "d"=>0, "e"=>0, "f"=>0, "g"=>0,"h"=>0, "i"=>0,  "j"=>0, "k"=>0, "l"=>0, "m"=>0, "n"=>0);
+$user_name_list = array("a"=>0, "b"=>0,  "c"=>0);
+$his_num_list =  array("a"=>0, "b"=>0,  "c"=>0);
 $leading_user_name = '';
 $leading_number = 0;
 $have_a_winner = 0;

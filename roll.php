@@ -34,8 +34,9 @@ return (float) $sec;
 
 srand(seed());
 
-$user_name_list = array("lxf"=>0, "th"=>0,  "yy"=>0, "hx"=>0, "wht"=>0);
-$his_num_list = array("lxf"=>0, "th"=>0,  "yy"=>0, "hx"=>0, "wht"=>0);
+$user_name_list = array("ml"=>0, "zl"=>0,  "yy"=>0, "fm"=>0, "yuanye"=>0, "jy"=>0, "wcr"=>0,"yc"=>0,"zy"=>0,"cyx"=>0);
+$his_num_list = array("ml"=>0, "zl"=>0,  "yy"=>0, "fm"=>0, "yuanye"=>0, "jy"=>0, "wcr"=>0,"yc"=>0,"zy"=>0,"cyx"=>0);
+
 $leading_user_name = '';
 $leading_number = 0;
 $have_a_winner = 0;
