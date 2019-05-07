@@ -99,7 +99,7 @@ foreach( $nodes as $node )
 	
 
 }
-print_r($user_name_list);
+#print_r($user_name_list);
 
 if($have_number_count == count($user_name_list)){
 	$have_a_winner = 1;
