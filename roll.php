@@ -34,8 +34,11 @@ return (float) $sec;
 
 srand(seed());
 
-$user_name_list = array("ml"=>0, "zl"=>0,  "yy"=>0, "fm"=>0, "yuanye"=>0, "jy"=>0, "wcr"=>0);
-$his_num_list = array("ml"=>0, "zl"=>0,  "yy"=>0, "fm"=>0, "yuanye"=>0, "jy"=>0, "wcr"=>0);
+$user_name_list = array();
+#$user_name_list = array("ml"=>0, "zl"=>0,  "yy"=>0, "fm"=>0, "yuanye"=>0, "jy"=>0, "wcr"=>0,"yc"=>0,"zy"=>0,"cyx"=>0);
+#$his_num_list = array("ml"=>0, "zl"=>0,  "yy"=>0, "fm"=>0, "yuanye"=>0, "jy"=>0, "wcr"=>0,"yc"=>0,"zy"=>0,"cyx"=>0);
+$his_num_list = array();
+$his_share_num_list = array();
 
 $leading_user_name = '';
 $leading_number = 0;
@@ -86,6 +89,7 @@ foreach( $nodes as $node )
 	$user_name_list[$user_name] = $number;
 	$his_num_list[$user_name] = $ele_his_num->item(0)->nodeValue;
 	$ele_real_name = $node->getElementsByTagName( "real_name" );  
+	$his_share_num_list[$user_name]= $node->getElementsByTagName("share_num")->item(0)->nodeValue;  
 	$real_name = $ele_real_name->item(0)->nodeValue; 
 	#echo mb_convert_encoding($real_name, "gb2312", "utf-8"); 
 	#
@@ -95,6 +99,7 @@ foreach( $nodes as $node )
 	
 
 }
+print_r($user_name_list);
 
 if($have_number_count == count($user_name_list)){
 	$have_a_winner = 1;
@@ -198,6 +203,11 @@ foreach($user_name_list as $key => $value ){
 	echo '历史战绩:' ; 
 	echo $his_num_list[$key];
 	echo '次登顶';
+	
+	echo '<br>';
+	echo '分享次数:' ; 
+	echo $his_share_num_list[$key];
+	echo '次';
 	echo '</td>';
 	
 }
